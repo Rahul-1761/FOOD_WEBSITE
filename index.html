@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khana Khazana</title>
+    <link rel="icon" href="Images/Logo-Light.png" type="image/png">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+    <!--CSS Stylesheets-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/1862225e73.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <!--Nav Bar-->
+ 
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/Logo-Dark.png" width="100" height="100" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex header-search-form" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Here..." aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <a href="#" class="header-btn header-cart">
+                    <i class="icon fa-solid fa-cart-shopping"></i>
+                    <span class="cart-number">3</span>
+                </a>
+                    <a href="#" class="header-btn">
+                    <i class="icon fa-solid fa-user"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--parallax background  home section-->
+
+    <section class="main-banner" id="home">
+       <div class="background-parallax">
+            <div class="berry w-100">
+                <img src="Images/berry.png" class="layer" data-speed="-9"  alt="">
+            </div>
+
+            <div class="leaf w-100">
+                <img src="Images/leaf.png " class="layer" data-speed="5" alt="">
+            </div>
+        </div>
+
+        <div class="sec-wp">
+            <div class="col-lg-6">
+                <div>
+                    <div class="banner-text">
+                        <h1 class="h1-title">
+                            Welcome to our
+                            <span>Khana Khazana.</span>
+                            </h1>
+                        <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
+                            vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.</p>
+                        <div class="banner-btn mt-4">
+                            <a href="#menu" class="sec-btn">Check our Menu</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 banner">
+                        <div class="banner-img-wp">
+                            <div class="banner-img">
+                                <img src="Images/main-b.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="banner-img-text mt-4 m-auto">
+                            <h5 class="h5-title">Sushi</h5>
+                            <p>this is Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Brands Section-->
+
+    <section class="brands-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="brand-title mb-5">
+                    <h5 class="h5-title">Trusted by 70+ companies</h5>
+                </div>
+                <div class="brands-box col-lg" id="first-child">
+                    <img src="Images/brand1.png" alt="">
+                </div>
+                <div class="brands-box col-lg">
+                    <img src="Images/brand2.png" alt="">
+                </div>
+                <div class="brands-box col-lg">
+                    <img src="Images/brand3.png" alt="">
+                </div>
+                <div class="brands-box col-lg">
+                    <img src="Images/brand4.png" alt="">
+                </div>
+                <div class="brands-box col-lg" id="last-child">
+                    <img src="Images/brand5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    
+    <section class="about-sec section" id="about">
+        <div class="sec-title text-center mb-5">
+            <p class="sec-sub-title mb-3">About Us</p>
+            <h2 class="h2-title">Discover Our <span>Restaurent Story</span></h2>
+            <div class="sec-title-shape mb-4">
+                <img src="Images/title-shape.svg" alt="">
+            </div>
+            <p class="sec-para">This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore at
+                aspernatur eveniet temporibus placeat voluptatum quaerat accusamus possimus
+                cupiditate, quidem impedit sed libero id perspiciatis esse earum repellat quam.
+                Dolore modi temporibus quae possimus accusantium, cum corrupti sed deserunt iusto at
+                sapiente nihil sint iste similique soluta dolor! Quod.
+            </p>
+            <span class="play-btn-text">Watch The Recipe</span>
+        </div>
+       
+        <div class="about-video">
+            <div class="about-video-img img-fluid text-center" style="background-image: url(Images/about.jpg);">
+                <a href="" class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                    <i class="icon fa-solid fa-play"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <video src="Images/video.mp4" controls autoplay loop width="150%" height="150%">
+                        </video>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu Section-->
+
+    <section style="background-image: url(Images/menu-bg.png);"
+        class="our-menu section bg-light repeat-img" id="menu">
+        <div class="background-parallax">
+            <div class="mashroom w-100">
+                <img src="Images/mashroom.png" class="layer" data-speed="-9"  alt="">
+            </div>
+        </div>
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">our menu</p>
+                            <h2 class="h2-title">wake up early, <span>eat fresh & healthy</span></h2>
+                            <div class="sec-title-shape mb-4">
+                                <img src="Images/title-shape.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-tab-wp">
+                    <div class="row">
+                        <div class="col-lg-12 m-auto">
+                            <div class="menu-tab text-center">
+                                <ul class="filters">
+                                    <div class="filter-active"></div>
+                                    <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner">
+                                        <img src="Images/menu-1.png" alt="">
+                                        All
+                                    </li>
+                                    <li class="filter" data-filter=".breakfast">
+                                        <img src="Images/menu-2.png" alt="">
+                                        Breakfast
+                                    </li>
+                                    <li class="filter" data-filter=".lunch">
+                                        <img src="Images/menu-3.png" alt="">
+                                        Lunch
+                                    </li>
+                                    <li class="filter" data-filter=".dinner">
+                                        <img src="Images/menu-4.png" alt="">
+                                        Dinner
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-list-row">
+                    <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                        <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-category="breakfast">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="Images/dish1.png" alt="">
+                                </div>
+                                <div class="dish-rating">
+                                    5
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Fresh Chicken Veggies</h3>
+                                    <p>120 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Non Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>2</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 499</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-category="breakfast">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="Images/dish2.png" alt="">
+                                </div>
+                                <div class="dish-rating">
+                                    4.3
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Grilled Chicken</h3>
+                                    <p>80 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Non Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>1</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 359</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-category="lunch">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="Images/dish3.png" alt="">
+                                </div>
+                                <div class="dish-rating">
+                                    4
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Panner Noodles</h3>
+                                    <p>100 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>2</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 149</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-category="lunch">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="Images/dish4.png" alt="">
+                                </div>
+                                <div class="dish-rating">
+                                    4.5
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Chicken Noodles</h3>
+                                    <p>120 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Non Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>2</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 379</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-category="dinner">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="Images/dish5.png" alt="">
+                                </div>
+                                <div class="dish-rating">
+                                    5
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Bread Boiled Egg</h3>
+                                    <p>120 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Non Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>2</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 99</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-category="dinner">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="Images/dish6.png" alt="">
+                                </div>
+                                <div class="dish-rating">
+                                    5
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Immunity Dish</h3>
+                                    <p>120 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>2</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 159</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Description -->
+
+    <section class="two-col-sec section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="sec-img-left mt-5">
+                        <img src="Images/pizza.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="sec-text">
+                        <h2 class="xxl-title">Chicken Pepperoni</h2>
+                        <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
+                            eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
+                            totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
+                            distinctio excepturi nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
+                            laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
+                        <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
+                            voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="two-col-sec section pt-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="sec-text">
+                        <h2 class="xxl-title">shushi Pepperoni</h2>
+                        <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
+                            eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
+                            totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
+                            distinctio excepturi nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
+                            laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
+                        <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
+                            voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="sec-img-right">
+                        <img src="Images/sushi.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Table  -->
+
+    <section class="book-table section bg-light">
+        <div class="book-table-shape">
+            <img src="Images/table-leaves-shape.png" alt="">
+        </div>
+
+        <div class="book-table-shape book-table-shape2">
+            <img src="Images/table-leaves-shape.png" alt="">
+        </div>
+
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">Book Table</p>
+                            <h2 class="h2-title">Opening Table</h2>
+                            <div class="sec-title-shape mb-4">
+                                <img src="Images/title-shape.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-table-info">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+                            <div class="table-title text-center">
+                                <h3>Monday to Thrusday</h3>
+                                <p>9:00 am - 22:00 pm</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="call-now text-center">
+                                <div class="call-now-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <a href="tel:+91-8866998866">+91 - 8866998866</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="table-title text-center">
+                                <h3>Friday to Sunday</h3>
+                                <p>11::00 am to 20:00 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="gallery">
+            <div class="col-lg-10 m-auto">
+                <div class="sec-title text-center mb-5">
+                    <p class="sec-sub-title mb-3">Gallery</p>
+                    <h2 class="h2-title">Look at Our Photos</h2>
+                    <div class="sec-title-shape mb-4">
+                        <img src="Images/title-shape.svg" alt="">
+                    </div>
+                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1900">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Images/bt3.jpg" class="d-block w-100" alt="...">
+                      </div>  
+                      <div class="carousel-item">
+                        <img src="Images/bt1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/bt2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/bt4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-team section">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">Our Team</p>
+                            <h2 class="h2-title">Meet our Chefs</h2>
+                            <div class="sec-title-shape mb-4">
+                                <img src="Images/title-shape.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row team-group">
+                        <div class="col-lg-4">
+                            <div class="team-box text-center">
+                                <div style="background-image: url(Images/c11.jpg);"
+                                    class="team-img back-img">
+
+                                </div>
+                                <h3 class="h3-title">Nilay Hirpara</h3>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--2-->
+
+                        <div class="col-lg-4">
+                            <div class="team-box text-center">
+                                <div style="background-image: url(Images/c22.jpg);"
+                                    class="team-img back-img">
+
+                                </div>
+                                <h3 class="h3-title">Ravi Kumawat</h3>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--3-->
+
+                        <div class="col-lg-4">
+                            <div class="team-box text-center">
+                                <div style="background-image: url(Images/c33.jpg);"
+                                    class="team-img back-img">
+
+                                </div>
+                                <h3 class="h3-title">Navnit Kumar</h3>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--4-->
+
+                        <div class="col-lg-4">
+                            <div class="team-box text-center">
+                                <div style="background-image: url(Images/c44.jpg);"
+                                    class="team-img back-img">
+
+                                </div>
+                                <h3 class="h3-title">Pranav Badgal</h3>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--5-->
+
+                        <div class="col-lg-4">
+                            <div class="team-box text-center">
+                                <div style="background-image: url(Images/c55.jpg);"
+                                    class="team-img back-img">
+
+                                </div>
+                                <h3 class="h3-title">Priyotosh Dey</h3>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--6-->
+
+                        <div class="col-lg-4">
+                            <div class="team-box text-center">
+                                <div style="background-image: url(Images/c66.jpg);"
+                                    class="team-img back-img">
+
+                                </div>
+                                <h3 class="h3-title">Ranveer Kapoor</h3>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials section bg-light">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">What they say</p>
+                            <h2 class="h2-title">What our customers <span>say about us</span></h2>
+                            <div class="sec-title-shape mb-4">
+                                <img src="Images/title-shape.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="testimonials-img">
+                            <img src="Images/testimonial-img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="testimonials-box">
+                                    <div class="testimonial-box-top">
+                                        <div class="testimonials-box-img back-img"
+                                            style="background-image: url(Images/t11.jpg);">
+                                        </div>
+                                        <div class="star-rating-wp">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star-half-stroke icon"></i> 
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">
+                                            Nilay Hirpara
+                                        </h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                            quisquam.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--2-->
+
+                            <div class="col-sm-6">
+                                <div class="testimonials-box">
+                                    <div class="testimonial-box-top">
+                                        <div class="testimonials-box-img back-img"
+                                            style="background-image: url(Images/t22.jpg);">
+                                        </div>
+                                        <div class="star-rating-wp">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-regular fa-star icon"></i> 
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">
+                                            Ravi Kumawat
+                                        </h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                            quisquam.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--3-->
+
+                            <div class="col-sm-6">
+                                <div class="testimonials-box">
+                                    <div class="testimonial-box-top">
+                                        <div class="testimonials-box-img back-img"
+                                            style="background-image: url(Images/t33.jpg);">
+                                        </div>
+                                        <div class="star-rating-wp">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star-half-stroke icon"></i>  
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">
+                                            Navnit Kumar
+                                        </h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                            quisquam.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--4-->
+
+                            <div class="col-sm-6">
+                                <div class="testimonials-box">
+                                    <div class="testimonial-box-top">
+                                        <div class="testimonials-box-img back-img"
+                                            style="background-image: url(Images/t44.jpg);">
+                                        </div>
+                                        <div class="star-rating-wp">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>
+                                                <i class="fa-solid fa-star icon"></i>  
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">
+                                            Somyadeep Bhowmik
+                                        </h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                            quisquam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog Section-->
+
+    <section style="background-image: url(Images/blog-pattern-bg.png);"
+    class="blog-sec section bg-pattern bg-light repeat-img" id="blog">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">Our blog</p>
+                            <h2 class="h2-title">Latest Publications</span></h2>
+                            <div class="sec-title-shape mb-4">
+                                <img src="Images/title-shape.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-box">
+                            <div class="blog-img back-img"
+                                style="background-image: url(Images/blog1.jpg);"></div>
+                            <div class="blog-text">
+                                <p class="blog-date">June.15.2022</p>
+                                <a href="#" class="h4-title">Energy Drink which you can make at home.</a>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                    explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                    blanditiis amet ad.</p>
+                                <a href="#" class="sec-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-box">
+                            <div class="blog-img back-img"
+                                style="background-image: url(Images/blog2.jpg);"></div>
+                            <div class="blog-text">
+                                <p class="blog-date">March.15.2022</p>
+                                <a href="#" class="h4-title">Fresh Veggie and rice combo for dinner.</a>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                    explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                    blanditiis amet ad.</p>
+                                <a href="#" class="sec-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-box">
+                            <div class="blog-img back-img"
+                                style="background-image: url(Images/blog3.jpg);"></div>
+                            <div class="blog-text">
+                                <p class="blog-date">January.15.2022</p>
+                                <a href="#" class="h4-title">Chicken burger with double nuggets</a>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ipsa
+                                    explicabo atque reprehenderit beatae! Accusantium soluta consequuntur
+                                    blanditiis amet ad.</p>
+                                <a href="#" class="sec-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section & Footer-->
+
+    <footer class="site-footer" id="contact">
+        <div class="top-footer section">
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-info">
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                        <img src="Images/Logo-Dark.png" width="100" height="100" alt="">
+                                    </a>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, tenetur.
+                                </p>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="footer-flex-box">
+                                <div class="footer-table-info">
+                                    <h3 class="h3-title">open hours</h3>
+                                    <ul>
+                                        <li><i class="fa-regular fa-clock"></i> Mon-Thurs : 9am - 22pm</li>
+                                        <li><i class="fa-regular fa-clock"></i> Fri-Sun : 11am - 22pm</li>
+                                    </ul>
+                                </div>
+                                <div class="footer-menu food-nav-menu">
+                                    <h3 class="h3-title">Links</h3>
+                                    <ul class="column-2">
+                                        <li>
+                                            <a href="#home" class="footer-active-menu">Home</a>
+                                        </li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#menu">Menu</a></li>
+                                        <li><a href="#gallery">Gallery</a></li>
+                                        <li><a href="#blog">Blog</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-menu">
+                                    <h3 class="h3-title">Company</h3>
+                                    <ul>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Cookie Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022 <span class="name">Khana Khazana </span>All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Mix it up plugin-->
+    <script src="jquery.mixitup.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
